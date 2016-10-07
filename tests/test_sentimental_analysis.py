@@ -19,7 +19,7 @@ class TestSentimentalAnalysis(unittest.TestCase):
         )
 
         self.assertEqual(estimation_1, 0.5)
-        self.assertEqual(estimation_2, -3)
+        self.assertEqual(estimation_2, -4)
 
     def test_positive(self):
         estimation_1 = self.estimator.estimate(
