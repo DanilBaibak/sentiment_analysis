@@ -1,10 +1,14 @@
 from .nlp.dictionary_tagger import DictionaryTagger
 from .nlp.pos_tagger import POSTagger
 from .nlp.splitter import Splitter
+import os
 
 
 class Estimator(object):
     def __init__(self):
+        # set root path for the project
+        os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
         self.dicttagger = DictionaryTagger({
             'positive': 'expressions/positive.csv',
             'negative': 'expressions/negative.csv',
