@@ -21,3 +21,11 @@ After the installation was done successfully, activate your enviroment:
 source activate sa
 ```
 > For using **conda** and **environments**, please read full documentation of [conda](http://conda.pydata.org/docs/using/index.html).
+
+# Example
+```sh
+from sentiment_analysis.estimator import Estimator
+
+estimator = Estimator()
+print(estimator.estimate('The staff is amazing, friendly and helpful.'))
+```
