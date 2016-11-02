@@ -22,6 +22,8 @@ source activate sa
 ```
 > For using **conda** and **environments**, please read full documentation of [conda](http://conda.pydata.org/docs/using/index.html).
 
+For those who are using pip **pip**, there is file with requirements - **requirements.txt**
+
 # Example
 ```sh
 from sentiment_analysis.estimator import Estimator
