@@ -75,5 +75,5 @@ class TestSentimentalAnalysis(unittest.TestCase):
         self.assertEqual(estimation_4, -3.5)
         self.assertEqual(estimation_5, -3)
 
-# if __name__ == '__main__':
-#     unittest.main()
+if __name__ == '__main__':
+    unittest.main()
